@@ -1,5 +1,6 @@
+/* prettier-ignore */
 module.exports = [
-  "/inspacare", 
+  "/inspacare",
   "/chesscoders",
   "/masterplanner",
 ];
