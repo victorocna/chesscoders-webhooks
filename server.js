@@ -15,7 +15,7 @@ for (let i in routes) {
     slack.chat.postMessage({
       token: process.env.SLACK_API_TOKEN,
       channel: "general",
-      text: "Hello world from Node. Payload: " + JSON.stringify(req),
+      text: "Hello world from Node. Payload: " + JSON.stringify(req.body) || "none",
     })
 
     return res.send("Ok")
